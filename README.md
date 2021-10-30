@@ -1,2 +1,2 @@
 # Data_Structure_CodingNinjas.com
-My Solutions to the problems in Data Structure
+Problems and Solutions to Data Structure and Algorithm Course on CodingNinjas
