@@ -46,7 +46,7 @@ int staircase(int n){
     //person can reach nth step from n-1, n-2,, n-2;
     
     //hypothesis
-	  int small_output1 = staircase(n - 1);
+    int small_output1 = staircase(n - 1);
     int small_output2 = staircase(n - 2);
     int small_output3 = staircase(n - 3);
     
