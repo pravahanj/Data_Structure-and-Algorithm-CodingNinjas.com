@@ -112,5 +112,5 @@ Node *deleteNode(Node *head, int pos) {
 }
 
 // Time Complexity : O(n)
-// Auxillary Spce : O(1)
+// Auxillary Space : O(1)
 
