@@ -57,7 +57,7 @@ Sample Output 2 :
         };
 
 *****************************************************************/
-
+/*
 void print(Node *head) {
     
     for(;head;) {
@@ -90,3 +90,19 @@ void printReverse(Node *head){
 
 // Time Complexity : O(n)
 // Auxllary Space : O(1)
+
+*/
+void printReverse(Node *head) {
+    // base case
+    if(head == NULL) {
+        return;
+    }
+    
+    printReverse(head -> next);
+    
+    cout << head -> data << " "; 
+    
+}
+
+// Time Complexity : O(n)
+// Auxllary Space : O(n)
