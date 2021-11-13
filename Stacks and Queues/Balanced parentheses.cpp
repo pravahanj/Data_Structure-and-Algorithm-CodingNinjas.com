@@ -40,7 +40,8 @@ false
 
 Explanation to Sample Input 2:
 The initial two pairs of brackets are balanced. But when you see, the opening bracket at the fourth index doesn't have its 
-corresponding closing bracket which makes it imbalanced and in turn, making the whole expression imbalanced.
+corresponding closing bracket which makes it imbalanced and in turn, making the whole expression imbalanced.Hence the 
+output prints 'false'.
 */
 
 #include <stack>
@@ -83,5 +84,3 @@ bool isBalanced(string str) {
    return s.empty();
     
 }
-Hence the output prints 'false'.
-*/
