@@ -41,11 +41,11 @@ For the enqueue operation, the input line will contain two integers separated by
 For the rest of the operations on the queue, the input line will contain only one integer value, representing the query being performed on the queue.
 
 Output Format:
-For Query-1, you do not need to return anything.
-For Query-2, prints the data being dequeued from the queue.
-For Query-3, prints the data kept on the front of the queue.
-For Query-4, prints the current size of the queue.
-For Query-5, prints 'true' or 'false'(without quotes).
+For Query - 1, you do not need to return anything.
+For Query - 2, prints the data being dequeued from the queue.
+For Query - 3, prints the data kept on the front of the queue.
+For Query - 4, prints the current size of the queue.
+For Query - 5, prints 'true' or 'false'(without quotes).
 
 Output for every query will be printed in a separate line.
  
