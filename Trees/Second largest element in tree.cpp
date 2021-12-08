@@ -62,7 +62,6 @@ pair<TreeNode<int>*,TreeNode<int>*> helper(TreeNode<int> *root) {
     
 }
 
-
 TreeNode<int> * getSecondLargestNode(TreeNode<int> *root) {
     if(root == NULL or root -> children.size() == 0) {
         return NULL;
