@@ -54,7 +54,7 @@ Sample Output 1:
 99
 */
 
-/**********
+/***********
  
  Following is the main function we are using internally.
  Refer this for completing the Dequeue class.
@@ -95,7 +95,7 @@ Sample Output 1:
  return 0;
  }
  
- ************/
+ *************/
 
 
 class Deque {
