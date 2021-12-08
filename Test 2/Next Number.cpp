@@ -26,7 +26,7 @@ Sample Output 1 :
 1 0 0 0 
 */
 
-/**********
+/***********
  * Following is the Node class that is already written.
  
 class Node{
@@ -39,7 +39,7 @@ public:
     }
 };
  
-*********/
+**********/
 
 Node* helper(Node *head) {
     
