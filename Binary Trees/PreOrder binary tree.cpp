@@ -29,7 +29,7 @@ Sample Output 2:
 5 6 2 3 9 10
 */
 
-/**********************************************************
+/***********************************************************
 	Following is the Binary Tree Node class structure
 
 	template <typename T>
@@ -46,7 +46,7 @@ Sample Output 2:
     	}
 	};
 
-***********************************************************/
+************************************************************/
 
 void preOrder(BinaryTreeNode<int> *root) {
 	// Write your code here
