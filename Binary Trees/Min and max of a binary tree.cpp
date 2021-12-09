@@ -81,6 +81,6 @@ pair<int, int> getMinAndMax(BinaryTreeNode<int> *root) {
     } else if(root -> data > curr_MAX) {
         return {curr_MIN, root -> data};
     } else {
-        return{curr_MIN, curr_MAX};
+        return {curr_MIN, curr_MAX};
     }
 }
