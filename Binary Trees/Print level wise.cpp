@@ -1,6 +1,5 @@
 /*
 Print Level Wise
-Send Feedback
 For a given a Binary Tree of type integer, print the complete information of every node, when traversed in a level-order fashion.
 To print the information of a node with data D, you need to follow the exact format :
 
