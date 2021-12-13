@@ -81,15 +81,14 @@ void printLevelWise(BinaryTreeNode<int> *root) {
                 pending.push(NULL);
             }
         } else {
-        	 cout << front -> data << " "; 
+        	cout << front -> data << " "; 
         
         	if(front -> left) {
-            	pending.push(front -> left);
+            	   pending.push(front -> left);
         	} 
         	if(front -> right) {
-            	pending.push(front -> right);
+                   pending.push(front -> right);
         	}
-        
     	}    
-	}
+    }
 }
