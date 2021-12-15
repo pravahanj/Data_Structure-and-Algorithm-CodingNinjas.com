@@ -67,6 +67,3 @@ bool helper(BinaryTreeNode<int> *root, int min, int max){
 bool isBST(BinaryTreeNode<int> *root){
     return helper(root, INT_MIN, INT_MAX);
 }
-    
-
-
