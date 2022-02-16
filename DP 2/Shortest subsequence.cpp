@@ -54,10 +54,8 @@ int solve(string s, string v) {
              char current = s[i - 1];
              auto it = v.substr(0,j).rfind(current);
              
-             if(it != ULONG_MAX) {
-             	 			
-                 dp[i][j] = min(dp[i - 1][j], dp[i - 1][it] + 1);
-                     						
+             if(it != ULONG_MAX) {	
+                 dp[i][j] = min(dp[i - 1][j], dp[i - 1][it] + 1);		
              } else {
                  dp[i][j] = 1;  
              }
