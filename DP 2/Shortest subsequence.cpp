@@ -55,7 +55,7 @@ int solve(string s, string v) {
              auto it = v.substr(0,j).rfind(current);
              
              if(it != ULONG_MAX) {
-             	 				// not including the current
+             	 			 // not including the current
                  dp[i][j] = min(dp[i - 1][j], dp[i - 1][it] + 1);
                      						 // including current  
              } else {
