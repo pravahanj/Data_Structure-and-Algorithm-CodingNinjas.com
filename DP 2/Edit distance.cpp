@@ -47,6 +47,6 @@ int editDistance(string s1, string s2) {
    
     return 1 + min(editDistance(s1, string(s2.begin(), s2.end() - 1)),
                    min(editDistance(string(s1.begin(), s1.end() - 1), s2),
-    			   	         editDistance(string(s1.begin(), s1.end() - 1), string(s2.begin(), s2.end() - 1)))
+    		       editDistance(string(s1.begin(), s1.end() - 1), string(s2.begin(), s2.end() - 1)))
                   );
 }
