@@ -49,7 +49,7 @@ void countCycles(vector<vector<bool>>& graph, vector<bool>& visited, int current
     
     for(int i = 0; i < graph.size(); i++) {
         if(!visited[i] and graph[current][i]) {
-			countCycles(graph, visited, i, start, length - 1, count);
+	     countCycles(graph, visited, i, start, length - 1, count);
         }
     }
     
