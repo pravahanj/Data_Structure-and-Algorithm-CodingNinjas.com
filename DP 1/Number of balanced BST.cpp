@@ -37,7 +37,7 @@ long balancedBTs(int n) {
         return 1;
     }
     
-	  long smalloutput1 = balancedBTs(n - 1);
+    long smalloutput1 = balancedBTs(n - 1);
     long smalloutput2 = balancedBTs(n - 2);
     
     return ((smalloutput1 % mod) * ((2 * smalloutput2) + smalloutput1) % mod) % mod;
