@@ -68,7 +68,7 @@ Node *appendLastNToFirst(Node *head, int n){
     //corner case
    	if(n == 0 or head == NULL) {
         return head;
-    }
+    
     
     Node *tail = head;
     Node *ptr  = head;
